@@ -1,0 +1,5 @@
+setup.py
+databorealis.egg-info/PKG-INFO
+databorealis.egg-info/SOURCES.txt
+databorealis.egg-info/dependency_links.txt
+databorealis.egg-info/top_level.txt

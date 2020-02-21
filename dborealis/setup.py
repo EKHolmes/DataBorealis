@@ -1,16 +1,15 @@
-import pathlib
 from setuptools import setup
 
 # The directory containing this file
-HERE = pathlib.Path(__file__).parent
+
 
 # The text of the README file
-README = (HERE / "DESC.md").read_text()
+README = "DataBorealis\nAn extremely lightweight database module for Python 3.8\n\nDocumentation\n\nhelp() Function\nA simple function that prints a small, barebones tutorial. Takes no parameters.\n\nNewDB(*file_name*) class\nThe core of the DataBorealis module. Creates a new database from a .db file referenced in the single parameter.\n\nquery(*val, param*)\nUsed to search the database. The *val* parameter specifies the type of data you are searching for (name-value pair (nvp) or single value (vlu)), while the *param* parameter is the keyword you are searching for. The name of a name-value pair, or the value of a single value. Returns the value of a name-value pair, or True/False for a value, depending on whether or not the value exists.\n\ninsert(*val, param*)\nUsed to insert data into the database. Same parameters as the query() function, but the *param* parameter is the data to be inserted."
 
 # This call to setup() does all the work
 setup(
-    name="DataBorealis",
-    version="1.0.0",
+    name="databorealis",
+    version="1.0.2",
     description="Localized, file-based database module.",
     long_description=README,
     long_description_content_type="text/markdown",
