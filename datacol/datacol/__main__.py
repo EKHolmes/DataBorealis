@@ -9,6 +9,8 @@ class NewDB:
     global dbl
     global dbw
     global file_name
+    if file_namek[-3:-1] != '.db':
+        raise
     file_name = file_namek
     dbr = open(file_name, "r")
     dbw = open(file_name, "a")
