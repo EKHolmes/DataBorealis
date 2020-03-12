@@ -10,7 +10,7 @@ desc = desc.read()
 # This call to setup() does all the work
 setup(
     name="datacol",
-    version="1.0.2",
+    version="1.1.0",
     packages=['datacol'],
     description="Localized, file-based database module.",
     long_description=desc,
